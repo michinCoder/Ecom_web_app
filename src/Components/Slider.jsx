@@ -89,7 +89,7 @@ const Slider = () => {
         }
     }
     
-    setInterval(handleClick, 5000);
+setInterval(handleClick, 5000);
 
   return (
     <Container>

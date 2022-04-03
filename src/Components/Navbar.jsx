@@ -79,7 +79,7 @@ const Navbar = () => {
             <Center><Link to="/" style={{textDecoration: "none"}}><Logo>MEERA.</Logo></Link></Center>
             <Right>
                 <Link to="/register" style={{textDecoration: "none"}}><MenuItem>Register</MenuItem></Link>            
-                <Link to="/register" style={{textDecoration: "none"}}><MenuItem>Sign In</MenuItem></Link>
+                <Link to="/login" style={{textDecoration: "none"}}><MenuItem>Sign In</MenuItem></Link>
                 <MenuItem>
                 <Badge badgeContent={2} color="secondary">
                     <Link to="/cart" style={{textDecoration: "none", color: "black"}}><ShoppingCartOutlined /></Link>
